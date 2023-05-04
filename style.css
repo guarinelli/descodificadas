@@ -7,8 +7,9 @@
 
 body{
     padding-top: 95px;
-    
+        
 }
+
 
 main{
     background-color: #f3f3f3;
@@ -18,9 +19,13 @@ main{
 footer {
     border-top: 100px solid #f3f3f3;
     background-color: #f3f3f3;
-
+    margin-bottom: 50px;
 }
 
+html{
+    background-color: #f3f3f3;
+   
+}
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -38,16 +43,52 @@ footer {
 
 .cabecalho-menu{
     display: flex;
-    gap: 45px;
+    gap: 45px;   
          
 }
 
-.cabecalho-menu-item {
+.logo-menu{
+    margin-left: -700px;
+
+}
+
+.nome-1{
+    color: #e57b72;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15.5px;
-    color: #e57b72;
-    
+    margin-left: -630px;
+    font-weight: bold;
 }
+
+.nome-2{
+    color: #e57b72;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15.5px;
+    font-weight: bold;
+}
+
+.nome-3{
+    color: #e57b72;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15.5px;
+    font-weight: bold;
+}
+
+.nome-4{
+    color: #e57b72;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15.5px;
+    font-weight: bold;
+}
+
+.nome-5{
+    color: #e57b72;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15.5px;
+    font-weight: bold;
+}
+
+
 
 .sessao1{
     margin-top: 50px;
@@ -135,13 +176,185 @@ footer {
 }
 
 .equipe{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #e57b72;
+    font-family: 'IBM Plex Mono', monospace;
+    
+    
 
 }
 
-.fundadora{
+.equipe-titulo{
+    margin-top: -1000px;
+    margin-left: -200px;
+    text-decoration: underline;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    
+}
+
+.texto-fundadora{
+    margin-top: -100px;
+    margin-left: -550px;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
+.foto-fundadora{
+    margin-top: 50px;
+    margin-left: -400px;
+    
+}
+
+.fotos-meninas{
+    margin-top: -75px;
+    margin-left: -100px;
+}
+
+.foto-milena{
+    margin-bottom: -20px;
+    margin-left: -100px;
+}
+
+.textos-meninas{
+    margin-top: -195px;
+    margin-bottom: 150px;
+    margin-left: 120px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.nome-meninas{
+    text-decoration: underline;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.subtexto-meninas{
+    margin-top: 50px;
+    margin-left: -210px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.receitas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    
+}
+.titulo-receitas{
+    margin-bottom: 50px;
+    margin-left: 60px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    color: #e57b72;
+    text-decoration: underline;
+    
+}
+
+.video-1{
+    padding: 5px;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+
+.video-2{
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.video-3{
+    padding: 5px;
+    margin: 10px;
+    
+}
+.video-4{
+    padding: 5px;
+    margin: 10px;
+    
+}
+   
+.titulo-4fotos{
+    
+    margin: 60px;
+    margin-left: 400px;
+    font-size: 50px;
+    color: #e57b72;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
+.mapa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.horario{
+    font-size: 15px;
+    color: #e57b72;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: -200px;
 
 }
 
-.time{
+.local{
+    font-size: 15px;
+    color: #e57b72;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: -200px;
+}
 
+.redessociais{
+    margin-left: 330px;
+    
+}
+
+.whats{
+    margin: 40px;
+
+}
+.insta{
+    margin: 40px;
+
+}
+.email{
+    margin: 40px;
+}
+
+.ultimalinha{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    margin-top: 70px;
+    font-size: 15px;
+    color: #e57b72;
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
+/** pagina 2: **/
+
+.bike{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 138px;
+    border-bottom: 8px solid #e57b72;
+    
+}
+
+
+.foto2{ 
+    margin-left: 60px;
+}
+
+.foto3{
+    margin-top: 650px;
+    margin-left: -350px;
 }
