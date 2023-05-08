@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 body{
@@ -100,11 +101,32 @@ html{
 }
 
 .sessao1-texto{
+    margin-top: -40px;
     font-family: 'IBM Plex Mono', monospace;
     color: #e57b72;
-    font-size: 15px;
-     
+    font-size: 15px; 
+    align-items: center;
+    width: 630px;
+    height: 400px;
+    text-align: justify;
+    width: 400px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
+
+.texto1{
+    margin-bottom: 30px;
+    text-indent: 30px;
+
+}
+.coracao{
+    margin-top: 30px;
+    margin-left: 150px;
+    color: rgba(21, 132, 243, 0.886);
+
+}
+
 
 .sessao2{
     display: flex;
@@ -116,7 +138,7 @@ html{
 }
 
 .sessao2-foto{
-    margin-left: -50px;
+    margin-left: -120px;
 }
 
 .sessao2-texto{
@@ -160,7 +182,7 @@ html{
 
 .depoimentos{
     margin-top: 50px;
-    
+    margin-bottom: 300px;
 }
 
 .fotofundo{
@@ -188,8 +210,8 @@ html{
 }
 
 .equipe-titulo{
-    margin-top: -1000px;
-    margin-left: -200px;
+    margin-top: -560px;
+    margin-left: -100px;
     text-decoration: underline;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 30px;
@@ -197,44 +219,59 @@ html{
 }
 
 .texto-fundadora{
-    margin-top: -100px;
-    margin-left: -550px;
+    margin-top: -550px;
+    margin-left: -250px;
     font-family: 'IBM Plex Mono', monospace;
+    padding: 20px;
+    width: 630px;
+    height: 400px;
+    text-align: justify;
+    width: 400px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-indent: 30px;
+    
+   
     
 }
 
 .foto-fundadora{
-    margin-top: 50px;
-    margin-left: -400px;
+    margin-top: -150px;
+    margin-left: -580px;
     
 }
 
 .fotos-meninas{
-    margin-top: -75px;
-    margin-left: -100px;
+    margin-top: -95px;
+    margin-left: -250px;
 }
 
 .foto-milena{
+    margin-top: -160px;
     margin-bottom: -20px;
-    margin-left: -100px;
+    margin-left: -250px;
 }
 
 .textos-meninas{
-    margin-top: -195px;
+    margin-top: -180px;
     margin-bottom: 150px;
-    margin-left: 120px;
     font-family: 'IBM Plex Mono', monospace;
 }
+
 
 .nome-meninas{
     text-decoration: underline;
     font-family: 'IBM Plex Mono', monospace;
+    margin-left: -50px;
+    
 }
 
 .subtexto-meninas{
     margin-top: 50px;
-    margin-left: -210px;
+    margin-left: -250px;
     font-family: 'IBM Plex Mono', monospace;
+   
 }
 
 .receitas{
@@ -246,7 +283,7 @@ html{
 }
 .titulo-receitas{
     margin-bottom: 50px;
-    margin-left: 60px;
+    margin-left: 100px;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 30px;
     color: #e57b72;
@@ -337,24 +374,12 @@ html{
     
 }
 
-/** pagina 2: **/
-
-.bike{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 138px;
-    border-bottom: 8px solid #e57b72;
-    
-}
 
 
-.foto2{ 
-    margin-left: 60px;
-}
 
-.foto3{
-    margin-top: 650px;
-    margin-left: -350px;
-}
+
+
+
+
+
+
