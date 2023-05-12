@@ -17,6 +17,10 @@ main{
 
 }
 
+header{
+    z-index: 99;
+}
+
 footer {
     border-top: 100px solid #f3f3f3;
     background-color: #f3f3f3;

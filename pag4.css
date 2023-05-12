@@ -11,6 +11,9 @@ body{
         
 }
 
+header{
+    z-index: 99;
+}
 
 main{
     background-color: #f3f3f3;
