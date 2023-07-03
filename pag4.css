@@ -7,10 +7,16 @@
 
 header{
     z-index: 99;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    border-bottom: 4px solid #e57b72;
+    
 }
 
 main{
     background-color: #f3f3f3;
+    margin-top: 10rem;
 
 }
 

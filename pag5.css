@@ -5,8 +5,13 @@
     font-family: 'IBM Plex Mono', monospace;
     color: #e57b72;
 }
+
 header{
     z-index: 99;
+    position: fixed;
+    width: 100%;
+    border-bottom: 4px solid #e57b72;
+    top: 0;
 }
 
 main {
