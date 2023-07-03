@@ -12,95 +12,92 @@
 </head>
 
 <body>
-        <header class="cabecalho">
-            <div>
-                <a  class="logo-menu" href="index.html">
-                    <img src="fotos do site.google\logo.jpg" alt="logo do amoricake" width="120" height="50">
-                </a>
+    
+    <header>
+        <nav>
+            <a class="logo" href="index.html"><img src='fotos do site.google/logo.jpg' width="130"></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-        
-            <nav class="cabecalho-menu">
-                <a class="nome-1" href="index.html">
-                    Pagina Inicial
-                </a>
-                <a class="nome-2" href="pagina2.html">
-                    Onde encontro
-                </a>
-                <a class="nome-3" href="pagina3.html">
-                    Cardápio
-                </a>
-                <a class="nome-4" href="pagina4.html">
-                    Store
-                </a>
-                <a class="nome-5" href="pagina5.html">
-                    Pedidos
-                </a>
-                </section>
-            </nav>
-</header>
+            <ul class="nav-list">
+                <li><a class="abc" href="index.html">Pagina Inicial</a></li>
+                <li><a class="abc" href="pagina2.html">Onde encontro</a></li>
+                <li><a class="abc" href="pagina3.html">Cardapio</a></li>
+                <li><a class="abc" href="pagina4.html">Store</a></li>
+                <li><a class="abc" href="pagina5.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="container">
-        <div class="form-image">
-            <img src="fotos do site.google/undraw_Organizing_projects_re_9p1k.png" alt="">
+
+
+<main>
+    
+        <div class="container">
+                <div class="form-image">
+                    <img src="fotos do site.google/undraw_Organizing_projects_re_9p1k.png" alt="">
+                </div>
+    
+                <div class="form">
+                        <form action="#">
+                            <div class="form-header">
+                                <div class="title">
+                                    <h1>Faça aqui o seu pedido:</h1>
+                                </div>
+                            </div>
+    
+                            <div class="input-group">
+                                <div class="input-box">
+                                    <label for="firstname">Primeiro Nome</label>
+                                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                                </div>
+    
+                                <div class="input-box">
+                                    <label for="lastname">Sobrenome</label>
+                                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                                </div>
+                                <div class="input-box">
+                                    <label for="email">E-mail</label>
+                                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                                </div>
+    
+                                <div class="input-box">
+                                    <label for="number">Celular</label>
+                                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                                </div>
+    
+    
+                            </div>
+    
+                            <div class="gender-inputs">
+    
+    
+                                <div class="gender-group">
+                                    <div class="gender-input">
+                                        <input id="retirada" type="radio" name="retirada">
+                                        <label for="retirada">Quero retirar no local</label>
+                                    </div>
+    
+                                    <div class="gender-input">
+                                        <input id="entrega" type="radio" name="entrega">
+                                        <label for="entrega">Quero entrega gratuita</label>
+                                    </div>
+    
+                                </div>
+                            </div>
+    
+                            <div class="continue-button">
+                                <button><a href="#">Continuar</a> </button>
+                            </div>
+    
+                        </form>
+                    </div>
         </div>
+</main>
 
-        <div class="form">
-                <form action="#">
-                    <div class="form-header">
-                        <div class="title">
-                            <h1>Faça aqui o seu pedido:</h1>
-                        </div>
-                    </div>
-    
-                    <div class="input-group">
-                        <div class="input-box">
-                            <label for="firstname">Primeiro Nome</label>
-                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
-                        </div>
-    
-                        <div class="input-box">
-                            <label for="lastname">Sobrenome</label>
-                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
-                        </div>
-                        <div class="input-box">
-                            <label for="email">E-mail</label>
-                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
-                        </div>
-    
-                        <div class="input-box">
-                            <label for="number">Celular</label>
-                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
-                        </div>
-    
-    
-                    </div>
-    
-                    <div class="gender-inputs">
-                       
-    
-                        <div class="gender-group">
-                            <div class="gender-input">
-                                <input id="retirada" type="radio" name="retirada">
-                                <label for="retirada">Quero retirar no local</label>
-                            </div>
-    
-                            <div class="gender-input">
-                                <input id="entrega" type="radio" name="entrega">
-                                <label for="entrega">Quero entrega gratuita</label>
-                            </div>
-    
-                        </div>
-                    </div>
-    
-                    <div class="continue-button">
-                        <button><a href="#">Continuar</a> </button>
-                    </div>
-                    
-                </form>
-            </div>
-</div>
+<script src="mobile-navbar.js"></script>
+
 </body>
-    <div class="rodape">
-        
-    </div>
 </html>
